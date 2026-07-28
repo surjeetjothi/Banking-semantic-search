@@ -54,8 +54,11 @@ async def lifespan(app: FastAPI):
         engines = load_all_engines()
         logger.info("Engines loaded successfully.")
     except FileNotFoundError as e:
-        logger.error(f"Model files missing: {e}")
-        logger.error("Run `python train_models.py` first to generate models.")
+        logger.warning(f"Model files missing ({e}). Auto-running model training pipeline...")
+        import train_models
+        train_models.main()
+        engines = load_all_engines()
+        logger.info("Engines loaded successfully after training.")
     yield
     logger.info("Shutting down.")
 
