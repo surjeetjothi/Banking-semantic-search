@@ -1,0 +1,46 @@
+id,query,category,query_clean,query_deep,category_id
+237,What is a business credit card?,Card Services,What is a business credit card?,business credit card,1
+333,What is the hold time for deposited checks?,Payments & Transfers,What is the hold time for deposited checks?,hold time deposited check,4
+43,How do I sign up for overdraft protection?,Account Management,How do I sign up for overdraft protection?,sign overdraft protection,0
+280,What factors affect my credit score?,Card Services,What factors affect my credit score?,factor affect credit score,1
+172,How does my escrow account work?,Loans,How does my escrow account work?,escrow account work,3
+238,How do I apply for a business credit card?,Card Services,How do I apply for a business credit card?,apply business credit card,1
+305,What are the limits for Zelle transfers?,Payments & Transfers,What are the limits for Zelle transfers?,limit zelle transfer,4
+443,How do I use a security token for login?,Fraud & Security,How do I use a security token for login?,use security token login,2
+245,How do I freeze my credit card temporarily?,Card Services,How do I freeze my credit card temporarily?,freeze credit card temporarily,1
+120,Is there a penalty for paying off my loan early?,Loans,Is there a penalty for paying off my loan early?,penalty paying loan early,3
+416,How do I report a suspicious website?,Fraud & Security,How do I report a suspicious website?,report suspicious website,2
+2,What are the requirements to open a checking account?,Account Management,What are the requirements to open a checking account?,requirement open checking account,0
+326,How do I set up a standing order?,Payments & Transfers,How do I set up a standing order?,set standing order,4
+317,What is the difference between ACH and wire transfer?,Payments & Transfers,What is the difference between ACH and wire transfer?,difference ach wire transfer,4
+302,How do I send money via Zelle?,Payments & Transfers,How do I send money via Zelle?,send money via zelle,4
+113,What are the closing costs for a mortgage?,Loans,What are the closing costs for a mortgage?,closing cost mortgage,3
+59,How can I recover funds from a closed account?,Account Management,How can I recover funds from a closed account?,recover fund closed account,0
+93,How do I clear my online banking cache?,Account Management,How do I clear my online banking cache?,clear online banking cache,0
+391,How do I enable real-time transaction alerts?,Fraud & Security,How do I enable real-time transaction alerts?,enable realtime transaction alert,2
+393,What do I do if I suspect identity theft?,Fraud & Security,What do I do if I suspect identity theft?,suspect identity theft,2
+107,What are the different types of home loans?,Loans,What are the different types of home loans?,different type home loan,3
+219,How is credit card interest calculated?,Card Services,How is credit card interest calculated?,credit card interest calculated,1
+115,What is the difference between pre-qualified and pre-approved?,Loans,What is the difference between pre-qualified and pre-approved?,difference prequalified preapproved,3
+190,What happens at the end of my loan term?,Loans,What happens at the end of my loan term?,happens end loan term,3
+102,How long does loan approval take?,Loans,How long does loan approval take?,long loan approval take,3
+432,What should I do after a data breach notification?,Fraud & Security,What should I do after a data breach notification?,data breach notification,2
+337,How do I export my transaction history?,Payments & Transfers,How do I export my transaction history?,export transaction history,4
+92,What browsers are supported for online banking?,Account Management,What browsers are supported for online banking?,browser supported online banking,0
+112,When should I refinance my mortgage?,Loans,When should I refinance my mortgage?,refinance mortgage,3
+434,What documentation do I need to file a fraud claim?,Fraud & Security,What documentation do I need to file a fraud claim?,documentation need file fraud claim,2
+195,How do I activate my new credit card?,Card Services,How do I activate my new credit card?,activate new credit card,1
+53,How do I set a spending limit on my account?,Account Management,How do I set a spending limit on my account?,set spending limit account,0
+159,How do I apply for a second mortgage?,Loans,How do I apply for a second mortgage?,apply second mortgage,3
+255,How do I apply for a student credit card?,Card Services,How do I apply for a student credit card?,apply student credit card,1
+373,What is auto-debit for loan payments?,Payments & Transfers,What is auto-debit for loan payments?,autodebit loan payment,4
+311,Where can I cash a money order?,Payments & Transfers,Where can I cash a money order?,cash money order,4
+253,What is a credit card promotional rate?,Card Services,What is a credit card promotional rate?,credit card promotional rate,1
+73,Are there fees for using out-of-network ATMs?,Account Management,Are there fees for using out-of-network ATMs?,fee using outofnetwork atm,0
+410,How do I set up biometric login?,Fraud & Security,How do I set up biometric login?,set biometric login,2
+336,How do I search for a specific transaction?,Payments & Transfers,How do I search for a specific transaction?,search specific transaction,4
+211,Do my rewards points expire?,Card Services,Do my rewards points expire?,reward point expire,1
+450,Is the mobile app safe to use?,Fraud & Security,Is the mobile app safe to use?,mobile app safe use,2
+32,Can I access my account from another country?,Account Management,Can I access my account from another country?,access account another country,0
+26,How can I update my email address on file?,Account Management,How can I update my email address on file?,update email address file,0
+61,Can I get a notarized letter from the bank?,Account Management,Can I get a notarized letter from the bank?,get notarized letter bank,0

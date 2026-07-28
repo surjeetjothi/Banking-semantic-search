@@ -1,0 +1,46 @@
+id,query,category,query_clean,query_deep,category_id
+87,Why can't I log in to my account?,Account Management,Why can't I log in to my account?,cant log account,0
+247,What purchase protection does my card offer?,Card Services,What purchase protection does my card offer?,purchase protection card offer,1
+139,How do I improve my chances of loan approval?,Loans,How do I improve my chances of loan approval?,improve chance loan approval,3
+405,How do I secure my online banking account?,Fraud & Security,How do I secure my online banking account?,secure online banking account,2
+258,Can I customize the design of my card?,Card Services,Can I customize the design of my card?,customize design card,1
+157,Can I transfer my loan to another person?,Loans,Can I transfer my loan to another person?,transfer loan another person,3
+298,How do I pay my bills online?,Payments & Transfers,How do I pay my bills online?,pay bill online,4
+123,How do I defer my loan payment?,Loans,How do I defer my loan payment?,defer loan payment,3
+3,How can I close my bank account?,Account Management,How can I close my bank account?,close bank account,0
+200,How do I increase my credit card limit?,Card Services,How do I increase my credit card limit?,increase credit card limit,1
+135,How does student loan forgiveness work?,Loans,How does student loan forgiveness work?,student loan forgiveness work,3
+384,How do I verify a phone call is from the bank?,Fraud & Security,How do I verify a phone call is from the bank?,verify phone call bank,2
+422,How do I prevent account takeover?,Fraud & Security,How do I prevent account takeover?,prevent account takeover,2
+342,How long does an e-transfer take?,Payments & Transfers,How long does an e-transfer take?,long etransfer take,4
+431,How do I report a data breach?,Fraud & Security,How do I report a data breach?,report data breach,2
+263,Can I get the annual fee waived?,Card Services,Can I get the annual fee waived?,get annual fee waived,1
+117,What are the current auto loan rates?,Loans,What are the current auto loan rates?,current auto loan rate,3
+86,How do I log out of mobile banking?,Account Management,How do I log out of mobile banking?,log mobile banking,0
+230,How do I add my card to a digital wallet?,Card Services,How do I add my card to a digital wallet?,add card digital wallet,1
+173,Why did my mortgage payment increase?,Loans,Why did my mortgage payment increase?,mortgage payment increase,3
+423,What is SIM swap fraud?,Fraud & Security,What is SIM swap fraud?,sim swap fraud,2
+186,What are payday loan alternatives?,Loans,What are payday loan alternatives?,payday loan alternative,3
+347,What exchange rates do you offer?,Payments & Transfers,What exchange rates do you offer?,exchange rate offer,4
+332,How do I handle a returned payment?,Payments & Transfers,How do I handle a returned payment?,handle returned payment,4
+28,What is a money market account?,Account Management,What is a money market account?,money market account,0
+34,What notifications can I receive for my account?,Account Management,What notifications can I receive for my account?,notification receive account,0
+111,How does refinancing work?,Loans,How does refinancing work?,refinancing work,3
+341,How do I receive an e-transfer?,Payments & Transfers,How do I receive an e-transfer?,receive etransfer,4
+62,How do I request an account verification letter?,Account Management,How do I request an account verification letter?,request account verification letter,0
+154,How do I request a loan payoff statement?,Loans,How do I request a loan payoff statement?,request loan payoff statement,3
+206,What is the minimum payment on my credit card?,Card Services,What is the minimum payment on my credit card?,minimum payment credit card,1
+273,How do I stop a recurring charge on my card?,Card Services,How do I stop a recurring charge on my card?,stop recurring charge card,1
+267,Can I get cash back at the point of sale?,Card Services,Can I get cash back at the point of sale?,get cash back point sale,1
+334,How do I check the status of a transfer?,Payments & Transfers,How do I check the status of a transfer?,check status transfer,4
+47,Can I open an account online?,Account Management,Can I open an account online?,open account online,0
+330,How do I cancel a direct debit?,Payments & Transfers,How do I cancel a direct debit?,cancel direct debit,4
+430,Can I see who has accessed my account information?,Fraud & Security,Can I see who has accessed my account information?,see accessed account information,2
+31,How do I transfer my account to another branch?,Account Management,How do I transfer my account to another branch?,transfer account another branch,0
+51,Can I downgrade my account type?,Account Management,Can I downgrade my account type?,downgrade account type,0
+398,What happens after I report fraud?,Fraud & Security,What happens after I report fraud?,happens report fraud,2
+89,How do I change my PIN number?,Account Management,How do I change my PIN number?,change pin number,0
+248,Does my card have travel insurance?,Card Services,Does my card have travel insurance?,card travel insurance,1
+125,How do I apply for a home equity loan?,Loans,How do I apply for a home equity loan?,apply home equity loan,3
+319,How do I change my direct deposit information?,Payments & Transfers,How do I change my direct deposit information?,change direct deposit information,4
+291,What information do I need for an international transfer?,Payments & Transfers,What information do I need for an international transfer?,information need international transfer,4

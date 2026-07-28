@@ -1,0 +1,361 @@
+id,query,category,query_clean,query_deep,category_id
+178,How do I lock in my mortgage rate?,Loans,How do I lock in my mortgage rate?,lock mortgage rate,3
+304,Is Zelle free to use?,Payments & Transfers,Is Zelle free to use?,zelle free use,4
+134,Can I consolidate my student loans?,Loans,Can I consolidate my student loans?,consolidate student loan,3
+296,How do I cancel a recurring payment?,Payments & Transfers,How do I cancel a recurring payment?,cancel recurring payment,4
+266,How do I change my credit card PIN?,Card Services,How do I change my credit card PIN?,change credit card pin,1
+209,How do I redeem my credit card rewards?,Card Services,How do I redeem my credit card rewards?,redeem credit card reward,1
+445,What is device registration for security?,Fraud & Security,What is device registration for security?,device registration security,2
+312,How do I stop a payment?,Payments & Transfers,How do I stop a payment?,stop payment,4
+331,What happens if a payment fails?,Payments & Transfers,What happens if a payment fails?,happens payment fails,4
+349,What are the foreign exchange fees?,Payments & Transfers,What are the foreign exchange fees?,foreign exchange fee,4
+96,What features are available in the mobile app?,Account Management,What features are available in the mobile app?,feature available mobile app,0
+176,How do I get a loan for an investment property?,Loans,How do I get a loan for an investment property?,get loan investment property,3
+133,What are the student loan repayment options?,Loans,What are the student loan repayment options?,student loan repayment option,3
+252,How do I avoid paying interest on my credit card?,Card Services,How do I avoid paying interest on my credit card?,avoid paying interest credit card,1
+153,What is the loan-to-value ratio?,Loans,What is the loan-to-value ratio?,loantovalue ratio,3
+214,I see an unauthorized charge on my card,Card Services,I see an unauthorized charge on my card,see unauthorized charge card,1
+356,What is real-time payment?,Payments & Transfers,What is real-time payment?,realtime payment,4
+222,What are the balance transfer fees?,Card Services,What are the balance transfer fees?,balance transfer fee,1
+104,How do I check my loan application status?,Loans,How do I check my loan application status?,check loan application status,3
+5,How do I update my contact information?,Account Management,How do I update my contact information?,update contact information,0
+210,What is my current rewards balance?,Card Services,What is my current rewards balance?,current reward balance,1
+45,What happens if my account goes negative?,Account Management,What happens if my account goes negative?,happens account go negative,0
+354,What is a batch payment?,Payments & Transfers,What is a batch payment?,batch payment,4
+286,How do I transfer money between my accounts?,Payments & Transfers,How do I transfer money between my accounts?,transfer money account,4
+48,Do you offer student bank accounts?,Account Management,Do you offer student bank accounts?,offer student bank account,0
+49,What benefits come with a premium account?,Account Management,What benefits come with a premium account?,benefit come premium account,0
+118,Can I refinance my car loan?,Loans,Can I refinance my car loan?,refinance car loan,3
+385,What is two-factor authentication?,Fraud & Security,What is two-factor authentication?,twofactor authentication,2
+399,How long does a fraud investigation take?,Fraud & Security,How long does a fraud investigation take?,long fraud investigation take,2
+220,What is a balance transfer?,Card Services,What is a balance transfer?,balance transfer,1
+163,How does a secured loan differ from unsecured?,Loans,How does a secured loan differ from unsecured?,secured loan differ unsecured,3
+129,What are the tax benefits of a home loan?,Loans,What are the tax benefits of a home loan?,tax benefit home loan,3
+382,How do I report a phishing text message?,Fraud & Security,How do I report a phishing text message?,report phishing text message,2
+160,What are the risks of a second mortgage?,Loans,What are the risks of a second mortgage?,risk second mortgage,3
+269,How do I report a damaged card?,Card Services,How do I report a damaged card?,report damaged card,1
+12,How do I add a joint account holder?,Account Management,How do I add a joint account holder?,add joint account holder,0
+313,Can I reverse a bank transfer?,Payments & Transfers,Can I reverse a bank transfer?,reverse bank transfer,4
+225,What is the foreign transaction fee on my card?,Card Services,What is the foreign transaction fee on my card?,foreign transaction fee card,1
+90,Can I set up Face ID for mobile banking?,Account Management,Can I set up Face ID for mobile banking?,set face id mobile banking,0
+394,How do I place a fraud alert on my credit report?,Fraud & Security,How do I place a fraud alert on my credit report?,place fraud alert credit report,2
+7,How do I set up direct deposit?,Account Management,How do I set up direct deposit?,set direct deposit,0
+436,What is check fraud?,Fraud & Security,What is check fraud?,check fraud,2
+374,How do I set up auto-debit?,Payments & Transfers,How do I set up auto-debit?,set autodebit,4
+207,How do I set up autopay for my credit card?,Card Services,How do I set up autopay for my credit card?,set autopay credit card,1
+355,How do I process batch payments?,Payments & Transfers,How do I process batch payments?,process batch payment,4
+136,What is a co-signer and do I need one?,Loans,What is a co-signer and do I need one?,cosigner need one,3
+4,What is the minimum balance for a savings account?,Account Management,What is the minimum balance for a savings account?,minimum balance saving account,0
+149,How do I increase my line of credit?,Loans,How do I increase my line of credit?,increase line credit,3
+257,How do I set spending alerts on my card?,Card Services,How do I set spending alerts on my card?,set spending alert card,1
+27,How do I change my phone number on my account?,Account Management,How do I change my phone number on my account?,change phone number account,0
+344,Is there a fee for e-transfers?,Payments & Transfers,Is there a fee for e-transfers?,fee etransfers,4
+231,Can I use my card with Apple Pay?,Card Services,Can I use my card with Apple Pay?,use card apple pay,1
+442,What is a security token?,Fraud & Security,What is a security token?,security token,2
+37,How do I reorder checks?,Account Management,How do I reorder checks?,reorder check,0
+325,What is a standing order?,Payments & Transfers,What is a standing order?,standing order,4
+285,How do I send money to another account?,Payments & Transfers,How do I send money to another account?,send money another account,4
+70,How long does a mobile deposit take to clear?,Account Management,How long does a mobile deposit take to clear?,long mobile deposit take clear,0
+193,How do I apply for a credit card?,Card Services,How do I apply for a credit card?,apply credit card,1
+128,How much equity do I need for a HELOC?,Loans,How much equity do I need for a HELOC?,much equity need heloc,3
+265,What is a statement closing date?,Card Services,What is a statement closing date?,statement closing date,1
+303,How do I receive money through Zelle?,Payments & Transfers,How do I receive money through Zelle?,receive money zelle,4
+204,When is my credit card payment due?,Card Services,When is my credit card payment due?,credit card payment due,1
+246,How do I unfreeze my credit card?,Card Services,How do I unfreeze my credit card?,unfreeze credit card,1
+417,What is social engineering fraud?,Fraud & Security,What is social engineering fraud?,social engineering fraud,2
+429,How do I opt out of data sharing?,Fraud & Security,How do I opt out of data sharing?,opt data sharing,2
+437,How do I report check fraud?,Fraud & Security,How do I report check fraud?,report check fraud,2
+151,Should I consolidate my debts?,Loans,Should I consolidate my debts?,consolidate debt,3
+94,Can I access online banking on multiple devices?,Account Management,Can I access online banking on multiple devices?,access online banking multiple device,0
+208,How do I earn rewards on my credit card?,Card Services,How do I earn rewards on my credit card?,earn reward credit card,1
+449,How do I recover my account after lockout?,Fraud & Security,How do I recover my account after lockout?,recover account lockout,2
+185,How do I get a hardship loan?,Loans,How do I get a hardship loan?,get hardship loan,3
+274,Can I set a daily spending limit on my card?,Card Services,Can I set a daily spending limit on my card?,set daily spending limit card,1
+412,How do I protect myself from ATM skimming?,Fraud & Security,How do I protect myself from ATM skimming?,protect atm skimming,2
+38,What is the routing number for my account?,Account Management,What is the routing number for my account?,routing number account,0
+14,How do I request a new debit card?,Account Management,How do I request a new debit card?,request new debit card,0
+85,Is mobile banking secure?,Account Management,Is mobile banking secure?,mobile banking secure,0
+254,When does my promotional rate expire?,Card Services,When does my promotional rate expire?,promotional rate expire,1
+127,What is the difference between HELOC and home equity loan?,Loans,What is the difference between HELOC and home equity loan?,difference heloc home equity loan,3
+314,How do I cancel a pending transaction?,Payments & Transfers,How do I cancel a pending transaction?,cancel pending transaction,4
+262,What is the annual fee for my card?,Card Services,What is the annual fee for my card?,annual fee card,1
+418,How do I protect myself from social engineering?,Fraud & Security,How do I protect myself from social engineering?,protect social engineering,2
+56,Why was my account frozen?,Account Management,Why was my account frozen?,account frozen,0
+240,How do I remove an authorized user?,Card Services,How do I remove an authorized user?,remove authorized user,1
+82,How do I register for online banking?,Account Management,How do I register for online banking?,register online banking,0
+68,How does mobile check deposit work?,Account Management,How does mobile check deposit work?,mobile check deposit work,0
+439,How do I report suspected elder financial abuse?,Fraud & Security,How do I report suspected elder financial abuse?,report suspected elder financial abuse,2
+23,Can I open an account for my child?,Account Management,Can I open an account for my child?,open account child,0
+375,Can I pay utility bills through the bank?,Payments & Transfers,Can I pay utility bills through the bank?,pay utility bill bank,4
+379,"My debit card was stolen, what should I do?",Fraud & Security,"My debit card was stolen, what should I do?",debit card stolen,2
+300,Can I schedule future-dated payments?,Payments & Transfers,Can I schedule future-dated payments?,schedule futuredated payment,4
+175,What is a jumbo loan?,Loans,What is a jumbo loan?,jumbo loan,3
+376,How do I verify a payment was received?,Payments & Transfers,How do I verify a payment was received?,verify payment received,4
+308,How do I get a cashier's check?,Payments & Transfers,How do I get a cashier's check?,get cashier check,4
+106,How do I calculate my monthly loan payment?,Loans,How do I calculate my monthly loan payment?,calculate monthly loan payment,3
+411,Is it safe to use public WiFi for banking?,Fraud & Security,Is it safe to use public WiFi for banking?,safe use public wifi banking,2
+213,How do I dispute a charge on my credit card?,Card Services,How do I dispute a charge on my credit card?,dispute charge credit card,1
+310,How do I send a money order?,Payments & Transfers,How do I send a money order?,send money order,4
+147,How do I get an SBA loan?,Loans,How do I get an SBA loan?,get sba loan,3
+202,What are the fees for my credit card?,Card Services,What are the fees for my credit card?,fee credit card,1
+119,How do I make extra payments on my loan?,Loans,How do I make extra payments on my loan?,make extra payment loan,3
+50,How do I upgrade to a premium account?,Account Management,How do I upgrade to a premium account?,upgrade premium account,0
+9,How can I check my account balance online?,Account Management,How can I check my account balance online?,check account balance online,0
+39,How do I find my account number?,Account Management,How do I find my account number?,find account number,0
+396,What is the difference between a fraud alert and credit freeze?,Fraud & Security,What is the difference between a fraud alert and credit freeze?,difference fraud alert credit freeze,2
+144,What is a USDA loan?,Loans,What is a USDA loan?,usda loan,3
+402,How do I file a police report for bank fraud?,Fraud & Security,How do I file a police report for bank fraud?,file police report bank fraud,2
+261,How do I apply for a platinum card?,Card Services,How do I apply for a platinum card?,apply platinum card,1
+229,How do I unblock my credit card?,Card Services,How do I unblock my credit card?,unblock credit card,1
+21,What are the fees for maintaining an account?,Account Management,What are the fees for maintaining an account?,fee maintaining account,0
+447,How do I remove a device from my account?,Fraud & Security,How do I remove a device from my account?,remove device account,2
+167,What is a balloon payment?,Loans,What is a balloon payment?,balloon payment,3
+35,How do I opt out of marketing communications?,Account Management,How do I opt out of marketing communications?,opt marketing communication,0
+168,How do I negotiate a better loan rate?,Loans,How do I negotiate a better loan rate?,negotiate better loan rate,3
+260,What are the perks of a premium credit card?,Card Services,What are the perks of a premium credit card?,perk premium credit card,1
+75,What are your hours of operation?,Account Management,What are your hours of operation?,hour operation,0
+46,How long does it take to open a new account?,Account Management,How long does it take to open a new account?,long take open new account,0
+281,How do I improve my credit score?,Card Services,How do I improve my credit score?,improve credit score,1
+95,How do I update the mobile banking app?,Account Management,How do I update the mobile banking app?,update mobile banking app,0
+378,How do I report a fraudulent transaction?,Fraud & Security,How do I report a fraudulent transaction?,report fraudulent transaction,2
+226,Does my card work internationally?,Card Services,Does my card work internationally?,card work internationally,1
+292,What is a SWIFT code?,Payments & Transfers,What is a SWIFT code?,swift code,4
+76,How do I schedule an appointment with a banker?,Account Management,How do I schedule an appointment with a banker?,schedule appointment banker,0
+137,How does my credit score affect my loan rate?,Loans,How does my credit score affect my loan rate?,credit score affect loan rate,3
+413,What is card skimming?,Fraud & Security,What is card skimming?,card skimming,2
+372,How do I pay my credit card bill through the app?,Payments & Transfers,How do I pay my credit card bill through the app?,pay credit card bill app,4
+241,What spending limits can I set for authorized users?,Card Services,What spending limits can I set for authorized users?,spending limit set authorized user,1
+259,How do I get a metal credit card?,Card Services,How do I get a metal credit card?,get metal credit card,1
+343,What are the limits for e-transfers?,Payments & Transfers,What are the limits for e-transfers?,limit etransfers,4
+121,How do I set up automatic loan payments?,Loans,How do I set up automatic loan payments?,set automatic loan payment,3
+36,Can I set a custom nickname for my accounts?,Account Management,Can I set a custom nickname for my accounts?,set custom nickname account,0
+339,How do I set up payment reminders?,Payments & Transfers,How do I set up payment reminders?,set payment reminder,4
+306,How do I send money to someone without a bank account?,Payments & Transfers,How do I send money to someone without a bank account?,send money someone without bank account,4
+141,How do I remove PMI from my mortgage?,Loans,How do I remove PMI from my mortgage?,remove pmi mortgage,3
+294,What is an IBAN number?,Payments & Transfers,What is an IBAN number?,iban number,4
+233,How do I set up contactless payments?,Card Services,How do I set up contactless payments?,set contactless payment,1
+114,How do I get pre-approved for a home loan?,Loans,How do I get pre-approved for a home loan?,get preapproved home loan,3
+299,How do I set up bill pay?,Payments & Transfers,How do I set up bill pay?,set bill pay,4
+41,How do I switch my primary account?,Account Management,How do I switch my primary account?,switch primary account,0
+17,How do I set up automatic transfers between accounts?,Account Management,How do I set up automatic transfers between accounts?,set automatic transfer account,0
+368,How do I use tap to pay?,Payments & Transfers,How do I use tap to pay?,use tap pay,4
+44,How do I disable overdraft protection?,Account Management,How do I disable overdraft protection?,disable overdraft protection,0
+69,What is the mobile deposit limit?,Account Management,What is the mobile deposit limit?,mobile deposit limit,0
+192,What is a title search?,Loans,What is a title search?,title search,3
+409,What is biometric authentication?,Fraud & Security,What is biometric authentication?,biometric authentication,2
+433,How do I dispute a transaction I didn't make?,Fraud & Security,How do I dispute a transaction I didn't make?,dispute transaction didnt make,2
+143,What is a VA loan and who qualifies?,Loans,What is a VA loan and who qualifies?,va loan qualifies,3
+84,How do I download the mobile banking app?,Account Management,How do I download the mobile banking app?,download mobile banking app,0
+421,What is account takeover fraud?,Fraud & Security,What is account takeover fraud?,account takeover fraud,2
+216,What is a chargeback?,Card Services,What is a chargeback?,chargeback,1
+363,What is a payment gateway?,Payments & Transfers,What is a payment gateway?,payment gateway,4
+116,How do I apply for an auto loan?,Loans,How do I apply for an auto loan?,apply auto loan,3
+322,What peer-to-peer payment options do you offer?,Payments & Transfers,What peer-to-peer payment options do you offer?,peertopeer payment option offer,4
+295,How do I set up recurring payments?,Payments & Transfers,How do I set up recurring payments?,set recurring payment,4
+22,How do I set up paperless statements?,Account Management,How do I set up paperless statements?,set paperless statement,0
+99,How do I apply for a personal loan?,Loans,How do I apply for a personal loan?,apply personal loan,3
+77,Can I get a safe deposit box?,Account Management,Can I get a safe deposit box?,get safe deposit box,0
+169,What is the grace period for loan payments?,Loans,What is the grace period for loan payments?,grace period loan payment,3
+290,How do I send an international wire transfer?,Payments & Transfers,How do I send an international wire transfer?,send international wire transfer,4
+435,How do I get a new account number after fraud?,Fraud & Security,How do I get a new account number after fraud?,get new account number fraud,2
+251,What is the grace period on my credit card?,Card Services,What is the grace period on my credit card?,grace period credit card,1
+25,How do I change my mailing address?,Account Management,How do I change my mailing address?,change mailing address,0
+71,Can I deposit cash at an ATM?,Account Management,Can I deposit cash at an ATM?,deposit cash atm,0
+446,How do I manage my registered devices?,Fraud & Security,How do I manage my registered devices?,manage registered device,2
+146,What collateral is needed for a business loan?,Loans,What collateral is needed for a business loan?,collateral needed business loan,3
+33,How do I set up account alerts?,Account Management,How do I set up account alerts?,set account alert,0
+338,Can I categorize my transactions?,Payments & Transfers,Can I categorize my transactions?,categorize transaction,4
+353,How do I set up payroll through my business account?,Payments & Transfers,How do I set up payroll through my business account?,set payroll business account,4
+242,How do I cancel my credit card?,Card Services,How do I cancel my credit card?,cancel credit card,1
+234,How do I request a virtual card number?,Card Services,How do I request a virtual card number?,request virtual card number,1
+275,How do I track my credit card spending?,Card Services,How do I track my credit card spending?,track credit card spending,1
+297,How do I modify a scheduled payment?,Payments & Transfers,How do I modify a scheduled payment?,modify scheduled payment,4
+132,How do I apply for a student loan?,Loans,How do I apply for a student loan?,apply student loan,3
+321,How do I pay someone with my phone?,Payments & Transfers,How do I pay someone with my phone?,pay someone phone,4
+318,How do I set up direct deposit for my paycheck?,Payments & Transfers,How do I set up direct deposit for my paycheck?,set direct deposit paycheck,4
+351,Can I hold multiple currencies in my account?,Payments & Transfers,Can I hold multiple currencies in my account?,hold multiple currency account,4
+350,How do I buy foreign currency?,Payments & Transfers,How do I buy foreign currency?,buy foreign currency,4
+203,How do I view my credit card statement?,Card Services,How do I view my credit card statement?,view credit card statement,1
+235,What is a secured credit card?,Card Services,What is a secured credit card?,secured credit card,1
+152,How do I calculate my debt-to-income ratio?,Loans,How do I calculate my debt-to-income ratio?,calculate debttoincome ratio,3
+377,I think someone accessed my account without permission,Fraud & Security,I think someone accessed my account without permission,think someone accessed account without permission,2
+80,I forgot my online banking username,Account Management,I forgot my online banking username,forgot online banking username,0
+438,What is elder financial abuse?,Fraud & Security,What is elder financial abuse?,elder financial abuse,2
+239,Can I add an authorized user to my card?,Card Services,Can I add an authorized user to my card?,add authorized user card,1
+268,What is chip and PIN technology?,Card Services,What is chip and PIN technology?,chip pin technology,1
+243,What happens to my rewards if I cancel?,Card Services,What happens to my rewards if I cancel?,happens reward cancel,1
+66,How do I get my 1099-INT form?,Account Management,How do I get my 1099-INT form?,get 1099int form,0
+451,How do I report a vulnerability in the bank's system?,Fraud & Security,How do I report a vulnerability in the bank's system?,report vulnerability bank system,2
+320,How do I verify a direct deposit was received?,Payments & Transfers,How do I verify a direct deposit was received?,verify direct deposit received,4
+270,Why did I receive a new card I didn't request?,Card Services,Why did I receive a new card I didn't request?,receive new card didnt request,1
+72,How do I find the nearest ATM?,Account Management,How do I find the nearest ATM?,find nearest atm,0
+249,What is extended warranty protection?,Card Services,What is extended warranty protection?,extended warranty protection,1
+19,How do I view my account statements?,Account Management,How do I view my account statements?,view account statement,0
+420,How do I recognize a banking scam?,Fraud & Security,How do I recognize a banking scam?,recognize banking scam,2
+170,How do I set up biweekly loan payments?,Loans,How do I set up biweekly loan payments?,set biweekly loan payment,3
+415,What should I do if I gave my information to a scammer?,Fraud & Security,What should I do if I gave my information to a scammer?,gave information scammer,2
+395,How do I place a credit freeze?,Fraud & Security,How do I place a credit freeze?,place credit freeze,2
+284,How do I choose the right credit card for me?,Card Services,How do I choose the right credit card for me?,choose right credit card,1
+142,What is an FHA loan?,Loans,What is an FHA loan?,fha loan,3
+187,Can I pay my loan with a credit card?,Loans,Can I pay my loan with a credit card?,pay loan credit card,3
+309,What is the cost of a cashier's check?,Payments & Transfers,What is the cost of a cashier's check?,cost cashier check,4
+201,How do I decrease my credit card limit?,Card Services,How do I decrease my credit card limit?,decrease credit card limit,1
+360,How do I set up automatic savings transfers?,Payments & Transfers,How do I set up automatic savings transfers?,set automatic saving transfer,4
+426,What is the bank's data encryption standard?,Fraud & Security,What is the bank's data encryption standard?,bank data encryption standard,2
+212,Can I transfer my rewards to another program?,Card Services,Can I transfer my rewards to another program?,transfer reward another program,1
+401,What is the bank's liability policy for fraud?,Fraud & Security,What is the bank's liability policy for fraud?,bank liability policy fraud,2
+165,How does the prime rate affect my loan?,Loans,How does the prime rate affect my loan?,prime rate affect loan,3
+424,How do I protect against SIM swap attacks?,Fraud & Security,How do I protect against SIM swap attacks?,protect sim swap attack,2
+65,What are the tax implications of my savings interest?,Account Management,What are the tax implications of my savings interest?,tax implication saving interest,0
+352,How do I make a tax payment through the bank?,Payments & Transfers,How do I make a tax payment through the bank?,make tax payment bank,4
+198,How do I request a replacement card?,Card Services,How do I request a replacement card?,request replacement card,1
+57,How do I reactivate a dormant account?,Account Management,How do I reactivate a dormant account?,reactivate dormant account,0
+8,What are the different types of accounts you offer?,Account Management,What are the different types of accounts you offer?,different type account offer,0
+162,What is a personal line of credit?,Loans,What is a personal line of credit?,personal line credit,3
+359,Can I schedule automatic charitable donations?,Payments & Transfers,Can I schedule automatic charitable donations?,schedule automatic charitable donation,4
+364,How do I integrate payment processing for my business?,Payments & Transfers,How do I integrate payment processing for my business?,integrate payment processing business,4
+293,How do I find the SWIFT code for my bank?,Payments & Transfers,How do I find the SWIFT code for my bank?,find swift code bank,4
+279,How often is my credit score updated?,Card Services,How often is my credit score updated?,often credit score updated,1
+271,How do I update my card information with merchants?,Card Services,How do I update my card information with merchants?,update card information merchant,1
+414,How can I tell if an ATM has a skimmer?,Fraud & Security,How can I tell if an ATM has a skimmer?,tell atm skimmer,2
+383,Is this email really from the bank?,Fraud & Security,Is this email really from the bank?,email really bank,2
+74,How do I set up a recurring deposit?,Account Management,How do I set up a recurring deposit?,set recurring deposit,0
+54,Can I restrict certain transactions on my account?,Account Management,Can I restrict certain transactions on my account?,restrict certain transaction account,0
+407,How often should I change my banking password?,Fraud & Security,How often should I change my banking password?,often change banking password,2
+289,How long does a wire transfer take?,Payments & Transfers,How long does a wire transfer take?,long wire transfer take,4
+79,How do I reset my online banking password?,Account Management,How do I reset my online banking password?,reset online banking password,0
+316,How long does an ACH transfer take?,Payments & Transfers,How long does an ACH transfer take?,long ach transfer take,4
+194,What credit cards do you offer?,Card Services,What credit cards do you offer?,credit card offer,1
+392,How do I set spending limits for security?,Fraud & Security,How do I set spending limits for security?,set spending limit security,2
+369,Can I make payments using my smartwatch?,Payments & Transfers,Can I make payments using my smartwatch?,make payment using smartwatch,4
+227,How do I set up travel notifications for my card?,Card Services,How do I set up travel notifications for my card?,set travel notification card,1
+400,Will I get my money back after fraud?,Fraud & Security,Will I get my money back after fraud?,get money back fraud,2
+13,Can I remove a joint account holder?,Account Management,Can I remove a joint account holder?,remove joint account holder,0
+103,What documents do I need for a loan application?,Loans,What documents do I need for a loan application?,document need loan application,3
+250,How do I file an insurance claim through my card?,Card Services,How do I file an insurance claim through my card?,file insurance claim card,1
+184,What is the difference between forbearance and deferment?,Loans,What is the difference between forbearance and deferment?,difference forbearance deferment,3
+81,How do I enable two-factor authentication?,Account Management,How do I enable two-factor authentication?,enable twofactor authentication,0
+91,How do I enable fingerprint login?,Account Management,How do I enable fingerprint login?,enable fingerprint login,0
+140,What is PMI and when is it required?,Loans,What is PMI and when is it required?,pmi required,3
+171,What is an escrow account?,Loans,What is an escrow account?,escrow account,3
+236,How do I upgrade from a secured to unsecured card?,Card Services,How do I upgrade from a secured to unsecured card?,upgrade secured unsecured card,1
+340,What is an e-transfer?,Payments & Transfers,What is an e-transfer?,etransfer,4
+131,What is a bridge loan?,Loans,What is a bridge loan?,bridge loan,3
+130,How do I get a construction loan?,Loans,How do I get a construction loan?,get construction loan,3
+367,What is contactless payment?,Payments & Transfers,What is contactless payment?,contactless payment,4
+362,How do I resolve a duplicate payment?,Payments & Transfers,How do I resolve a duplicate payment?,resolve duplicate payment,4
+276,What tools do you offer for credit card management?,Card Services,What tools do you offer for credit card management?,tool offer credit card management,1
+282,Can I get a credit card with no annual fee?,Card Services,Can I get a credit card with no annual fee?,get credit card annual fee,1
+191,How do I get my lien released after payoff?,Loans,How do I get my lien released after payoff?,get lien released payoff,3
+232,Can I use my card with Google Pay?,Card Services,Can I use my card with Google Pay?,use card google pay,1
+403,How do I check if my account has been compromised?,Fraud & Security,How do I check if my account has been compromised?,check account compromised,2
+428,What is the bank's privacy policy?,Fraud & Security,What is the bank's privacy policy?,bank privacy policy,2
+10,How do I link my accounts together?,Account Management,How do I link my accounts together?,link account together,0
+381,What should I do if I received a phishing email?,Fraud & Security,What should I do if I received a phishing email?,received phishing email,2
+244,Will canceling my card affect my credit score?,Card Services,Will canceling my card affect my credit score?,canceling card affect credit score,1
+324,How do I split a payment with friends?,Payments & Transfers,How do I split a payment with friends?,split payment friend,4
+15,What is the daily withdrawal limit?,Account Management,What is the daily withdrawal limit?,daily withdrawal limit,0
+109,What is a fixed-rate mortgage?,Loans,What is a fixed-rate mortgage?,fixedrate mortgage,3
+371,How do I pay my loan installment?,Payments & Transfers,How do I pay my loan installment?,pay loan installment,4
+64,How do I set up a trust account?,Account Management,How do I set up a trust account?,set trust account,0
+30,What are the penalties for early CD withdrawal?,Account Management,What are the penalties for early CD withdrawal?,penalty early cd withdrawal,0
+361,What is a sweep account?,Payments & Transfers,What is a sweep account?,sweep account,4
+287,How do I set up a wire transfer?,Payments & Transfers,How do I set up a wire transfer?,set wire transfer,4
+223,How do I get a cash advance on my credit card?,Card Services,How do I get a cash advance on my credit card?,get cash advance credit card,1
+1,How do I open a new savings account?,Account Management,How do I open a new savings account?,open new saving account,0
+315,What is ACH transfer?,Payments & Transfers,What is ACH transfer?,ach transfer,4
+425,How do I report unauthorized wire transfers?,Fraud & Security,How do I report unauthorized wire transfers?,report unauthorized wire transfer,2
+189,How do I track my loan payments?,Loans,How do I track my loan payments?,track loan payment,3
+6,Can I change my account type from savings to checking?,Account Management,Can I change my account type from savings to checking?,change account type saving checking,0
+100,What is the interest rate on a home loan?,Loans,What is the interest rate on a home loan?,interest rate home loan,3
+288,What are the fees for wire transfers?,Payments & Transfers,What are the fees for wire transfers?,fee wire transfer,4
+327,How do I cancel a standing order?,Payments & Transfers,How do I cancel a standing order?,cancel standing order,4
+55,How do I unfreeze my account?,Account Management,How do I unfreeze my account?,unfreeze account,0
+448,What happens if I enter wrong password too many times?,Fraud & Security,What happens if I enter wrong password too many times?,happens enter wrong password many time,2
+161,How do I get a loan for home improvements?,Loans,How do I get a loan for home improvements?,get loan home improvement,3
+205,How do I make a credit card payment?,Card Services,How do I make a credit card payment?,make credit card payment,1
+97,How do I provide feedback about banking services?,Account Management,How do I provide feedback about banking services?,provide feedback banking service,0
+188,What is the total cost of my loan over its lifetime?,Loans,What is the total cost of my loan over its lifetime?,total cost loan lifetime,3
+301,What is the cutoff time for same-day transfers?,Payments & Transfers,What is the cutoff time for same-day transfers?,cutoff time sameday transfer,4
+11,What is the interest rate on my savings account?,Account Management,What is the interest rate on my savings account?,interest rate saving account,0
+441,How do I set up trusted contact for my account?,Fraud & Security,How do I set up trusted contact for my account?,set trusted contact account,2
+348,How do I lock in an exchange rate?,Payments & Transfers,How do I lock in an exchange rate?,lock exchange rate,4
+42,What are overdraft protection options?,Account Management,What are overdraft protection options?,overdraft protection option,0
+182,What is the process for a loan modification?,Loans,What is the process for a loan modification?,process loan modification,3
+427,How does the bank protect my personal information?,Fraud & Security,How does the bank protect my personal information?,bank protect personal information,2
+277,How do I view my credit score through the bank?,Card Services,How do I view my credit score through the bank?,view credit score bank,1
+366,How do I set up invoicing through the bank?,Payments & Transfers,How do I set up invoicing through the bank?,set invoicing bank,4
+323,How do I request money from someone?,Payments & Transfers,How do I request money from someone?,request money someone,4
+60,How do I update my signature on file?,Account Management,How do I update my signature on file?,update signature file,0
+264,How does my credit card billing cycle work?,Card Services,How does my credit card billing cycle work?,credit card billing cycle work,1
+389,How do I set up fraud alerts?,Fraud & Security,How do I set up fraud alerts?,set fraud alert,2
+105,What is the maximum loan amount I can get?,Loans,What is the maximum loan amount I can get?,maximum loan amount get,3
+380,How do I freeze my account due to suspicious activity?,Fraud & Security,How do I freeze my account due to suspicious activity?,freeze account due suspicious activity,2
+408,How do I create a strong banking password?,Fraud & Security,How do I create a strong banking password?,create strong banking password,2
+110,What is an adjustable-rate mortgage?,Loans,What is an adjustable-rate mortgage?,adjustablerate mortgage,3
+179,What is a rate lock?,Loans,What is a rate lock?,rate lock,3
+164,What is the prime rate?,Loans,What is the prime rate?,prime rate,3
+24,What documents do I need to open an account?,Account Management,What documents do I need to open an account?,document need open account,0
+278,Does checking my credit score affect it?,Card Services,Does checking my credit score affect it?,checking credit score affect,1
+390,What are transaction alerts?,Fraud & Security,What are transaction alerts?,transaction alert,2
+256,What is a co-branded credit card?,Card Services,What is a co-branded credit card?,cobranded credit card,1
+272,What is a recurring charge and how do I manage it?,Card Services,What is a recurring charge and how do I manage it?,recurring charge manage,1
+335,How do I view my transaction history?,Payments & Transfers,How do I view my transaction history?,view transaction history,4
+228,Why was my card declined?,Card Services,Why was my card declined?,card declined,1
+126,What is a home equity line of credit?,Loans,What is a home equity line of credit?,home equity line credit,3
+197,How do I block my lost credit card?,Card Services,How do I block my lost credit card?,block lost credit card,1
+177,What are the current mortgage rates?,Loans,What are the current mortgage rates?,current mortgage rate,3
+78,What are the fees for a safe deposit box?,Account Management,What are the fees for a safe deposit box?,fee safe deposit box,0
+145,How do I apply for a small business loan?,Loans,How do I apply for a small business loan?,apply small business loan,3
+181,Can I get a construction-to-permanent loan?,Loans,Can I get a construction-to-permanent loan?,get constructiontopermanent loan,3
+329,How do I set up a direct debit?,Payments & Transfers,How do I set up a direct debit?,set direct debit,4
+215,How long does a dispute take to resolve?,Card Services,How long does a dispute take to resolve?,long dispute take resolve,1
+63,What is the process for estate accounts?,Account Management,What is the process for estate accounts?,process estate account,0
+328,What is the difference between a standing order and direct debit?,Payments & Transfers,What is the difference between a standing order and direct debit?,difference standing order direct debit,4
+18,Can I have multiple savings accounts?,Account Management,Can I have multiple savings accounts?,multiple saving account,0
+98,How do I file a complaint with the bank?,Account Management,How do I file a complaint with the bank?,file complaint bank,0
+440,What protections exist for vulnerable customers?,Fraud & Security,What protections exist for vulnerable customers?,protection exist vulnerable customer,2
+29,How does a certificate of deposit work?,Account Management,How does a certificate of deposit work?,certificate deposit work,0
+158,What is loan assumption?,Loans,What is loan assumption?,loan assumption,3
+218,What is the APR on my credit card?,Card Services,What is the APR on my credit card?,apr credit card,1
+406,What password requirements does the bank have?,Fraud & Security,What password requirements does the bank have?,password requirement bank,2
+67,Can I deposit checks using my phone?,Account Management,Can I deposit checks using my phone?,deposit check using phone,0
+388,What security features does the bank offer?,Fraud & Security,What security features does the bank offer?,security feature bank offer,2
+397,How do I report a lost or stolen checkbook?,Fraud & Security,How do I report a lost or stolen checkbook?,report lost stolen checkbook,2
+224,What are cash advance fees?,Card Services,What are cash advance fees?,cash advance fee,1
+387,How do I change my security questions?,Fraud & Security,How do I change my security questions?,change security question,2
+180,How long does a rate lock last?,Loans,How long does a rate lock last?,long rate lock last,3
+166,Can I change from variable to fixed rate?,Loans,Can I change from variable to fixed rate?,change variable fixed rate,3
+108,Can I get a loan with bad credit?,Loans,Can I get a loan with bad credit?,get loan bad credit,3
+83,Can I manage my account through the mobile app?,Account Management,Can I manage my account through the mobile app?,manage account mobile app,0
+20,How do I download my bank statements in PDF?,Account Management,How do I download my bank statements in PDF?,download bank statement pdf,0
+345,How do I make a payment using QR code?,Payments & Transfers,How do I make a payment using QR code?,make payment using qr code,4
+124,Can I modify my loan terms?,Loans,Can I modify my loan terms?,modify loan term,3
+217,How do I request a chargeback?,Card Services,How do I request a chargeback?,request chargeback,1
+196,How do I report a lost credit card?,Card Services,How do I report a lost credit card?,report lost credit card,1
+346,Can I pay internationally using my bank app?,Payments & Transfers,Can I pay internationally using my bank app?,pay internationally using bank app,4
+174,How do I appeal a loan denial?,Loans,How do I appeal a loan denial?,appeal loan denial,3
+404,What are signs that my account has been hacked?,Fraud & Security,What are signs that my account has been hacked?,sign account hacked,2
+370,How do I pay my mortgage online?,Payments & Transfers,How do I pay my mortgage online?,pay mortgage online,4
+307,What is a cashier's check?,Payments & Transfers,What is a cashier's check?,cashier check,4
+358,How do I send money to a charity?,Payments & Transfers,How do I send money to a charity?,send money charity,4
+150,What is a debt consolidation loan?,Loans,What is a debt consolidation loan?,debt consolidation loan,3
+40,Can I merge two accounts into one?,Account Management,Can I merge two accounts into one?,merge two account one,0
+122,What happens if I miss a loan payment?,Loans,What happens if I miss a loan payment?,happens miss loan payment,3
+52,What is the annual percentage yield on savings?,Account Management,What is the annual percentage yield on savings?,annual percentage yield saving,0
+138,What credit score do I need for a mortgage?,Loans,What credit score do I need for a mortgage?,credit score need mortgage,3
+148,What are the terms for a line of credit?,Loans,What are the terms for a line of credit?,term line credit,3
+357,How do I enable real-time payments?,Payments & Transfers,How do I enable real-time payments?,enable realtime payment,4
+283,What is the difference between Visa and Mastercard?,Card Services,What is the difference between Visa and Mastercard?,difference visa mastercard,1
+16,How can I increase my daily withdrawal limit?,Account Management,How can I increase my daily withdrawal limit?,increase daily withdrawal limit,0
+365,Can I receive payments through my bank?,Payments & Transfers,Can I receive payments through my bank?,receive payment bank,4
+155,What is an amortization schedule?,Loans,What is an amortization schedule?,amortization schedule,3
+419,What are common banking scams?,Fraud & Security,What are common banking scams?,common banking scam,2
+101,What are the eligibility requirements for a mortgage?,Loans,What are the eligibility requirements for a mortgage?,eligibility requirement mortgage,3
+199,What is my credit card limit?,Card Services,What is my credit card limit?,credit card limit,1
+58,What happens to a dormant account?,Account Management,What happens to a dormant account?,happens dormant account,0
+88,"My account is locked, how do I unlock it?",Account Management,"My account is locked, how do I unlock it?",account locked unlock,0
+183,How do I apply for forbearance?,Loans,How do I apply for forbearance?,apply forbearance,3
+156,How do I read my amortization schedule?,Loans,How do I read my amortization schedule?,read amortization schedule,3
+444,How do I report unauthorized account changes?,Fraud & Security,How do I report unauthorized account changes?,report unauthorized account change,2
+221,How do I do a balance transfer?,Card Services,How do I do a balance transfer?,balance transfer,1

@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banking Semantic Search System</title>
+  <meta name="description" content="AI-powered bank customer support query semantic search engine with FastText subword intelligence & Word2Vec comparison.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-hero: radial-gradient(circle at 50% 20%, #162544 0%, #0a1628 100%);
+      --bg-page: #f8f5f0;
+      --bg-card: #f5f0e8;
+      --text-main: #1a1a2e;
+      --text-muted: #5a5a7a;
+      --accent-gold: #b8860b;
+      --accent-gold-light: #d4a84b;
+      --gold-glow: rgba(184, 134, 11, 0.25);
+      --card-border: rgba(184, 134, 11, 0.2);
+      
+      /* Category Colors */
+      --cat-account: #2563eb;
+      --cat-loans: #16a34a;
+      --cat-card: #7c3aed;
+      --cat-payments: #ea580c;
+      --cat-fraud: #dc2626;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg-page);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      line-height: 1.5;
+    }
+
+    /* Header / Hero Section */
+    .hero {
+      background: var(--bg-hero);
+      color: #ffffff;
+      padding: 3rem 1.5rem 3.5rem;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+      border-bottom: 2px solid var(--accent-gold);
+    }
+
+    .hero-container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.75rem;
+      font-weight: 700;
+      color: var(--accent-gold-light);
+      letter-spacing: -0.5px;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero p {
+      color: #a0aec0;
+      font-size: 1.05rem;
+      margin-bottom: 2rem;
+      font-weight: 300;
+    }
+
+    /* Search Box */
+    .search-box {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(212, 168, 75, 0.3);
+      padding: 1.5rem;
+      border-radius: 16px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    }
+
+    .input-group {
+      display: flex;
+      gap: 0.75rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .search-input {
+      flex: 1;
+      padding: 1rem 1.25rem;
+      font-size: 1.05rem;
+      font-family: 'Inter', sans-serif;
+      border: 2px solid transparent;
+      border-radius: 10px;
+      background: #ffffff;
+      color: var(--text-main);
+      outline: none;
+      transition: all 0.25s ease;
+    }
+
+    .search-input:focus {
+      border-color: var(--accent-gold);
+      box-shadow: 0 0 0 4px var(--gold-glow);
+    }
+
+    .search-btn {
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      font-weight: 600;
+      font-family: 'Inter', sans-serif;
+      color: #0a1628;
+      background: linear-gradient(135deg, var(--accent-gold-light) 0%, var(--accent-gold) 100%);
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      box-shadow: 0 4px 12px rgba(184, 134, 11, 0.3);
+    }
+
+    .search-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(184, 134, 11, 0.4);
+    }
+
+    .filter-group {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .filter-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: #cbd5e1;
+      font-size: 0.9rem;
+    }
+
+    .filter-select {
+      background: rgba(10, 22, 40, 0.8);
+      color: #ffffff;
+      border: 1px solid var(--accent-gold);
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.9rem;
+      outline: none;
+      cursor: pointer;
+    }
+
+    /* Comparison Toggle Switch */
+    .compare-toggle {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      background: rgba(184, 134, 11, 0.15);
+      padding: 0.4rem 0.9rem;
+      border-radius: 20px;
+      border: 1px solid rgba(184, 134, 11, 0.3);
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .compare-toggle input {
+      display: none;
+    }
+
+    .toggle-slider {
+      width: 36px;
+      height: 20px;
+      background: #475569;
+      border-radius: 20px;
+      position: relative;
+      transition: 0.3s;
+    }
+
+    .toggle-slider::before {
+      content: "";
+      position: absolute;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: #ffffff;
+      top: 3px;
+      left: 3px;
+      transition: 0.3s;
+    }
+
+    .compare-toggle input:checked + .toggle-slider {
+      background: var(--accent-gold-light);
+    }
+
+    .compare-toggle input:checked + .toggle-slider::before {
+      transform: translateX(16px);
+      background: #0a1628;
+    }
+
+    .toggle-label {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--accent-gold-light);
+    }
+
+    /* Main Container */
+    .main-container {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+      flex: 1;
+      width: 100%;
+    }
+
+    /* Side-by-side comparison columns */
+    .comparison-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+
+    .column-header {
+      background: #ffffff;
+      border: 1px solid var(--card-border);
+      border-radius: 12px 12px 0 0;
+      padding: 1rem 1.25rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid var(--accent-gold);
+    }
+
+    .column-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #0a1628;
+    }
+
+    .column-tag {
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.2rem 0.6rem;
+      border-radius: 12px;
+      background: #e2e8f0;
+      color: #334155;
+    }
+
+    .column-tag.fasttext {
+      background: #dbeafe;
+      color: #1e40af;
+    }
+
+    .column-tag.word2vec {
+      background: #fef3c7;
+      color: #92400e;
+    }
+
+    /* Card Styling */
+    .card-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 1.25rem;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+      transition: all 0.25s ease;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+      border-color: var(--accent-gold);
+    }
+
+    .stamp-badge {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: radial-gradient(circle, #d4a84b 0%, #b8860b 100%);
+      color: #0a1628;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 0.75rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+      transform: rotate(10deg);
+      border: 2px dashed rgba(10, 22, 40, 0.3);
+    }
+
+    .stamp-badge span {
+      font-size: 0.6rem;
+      font-weight: 600;
+      line-height: 1;
+    }
+
+    .card-query {
+      font-size: 1rem;
+      font-weight: 500;
+      color: var(--text-main);
+      margin-bottom: 1rem;
+      padding-right: 3.2rem;
+      line-height: 1.4;
+    }
+
+    .card-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: auto;
+      padding-top: 0.75rem;
+      border-top: 1px dashed rgba(0, 0, 0, 0.08);
+    }
+
+    .category-tag {
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.2rem 0.6rem;
+      border-radius: 12px;
+      color: #ffffff;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .tag-account { background-color: var(--cat-account); }
+    .tag-loans { background-color: var(--cat-loans); }
+    .tag-card { background-color: var(--cat-card); }
+    .tag-payments { background-color: var(--cat-payments); }
+    .tag-fraud { background-color: var(--cat-fraud); }
+    .tag-default { background-color: var(--text-muted); }
+
+    /* Feedback Actions */
+    .feedback-actions {
+      display: flex;
+      gap: 0.4rem;
+    }
+
+    .btn-feedback {
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      padding: 0.25rem 0.5rem;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .btn-feedback:hover {
+      background: #f1f5f9;
+      border-color: var(--accent-gold);
+    }
+
+    .btn-feedback.active-up {
+      background: #dcfce7;
+      border-color: #16a34a;
+      color: #15803d;
+    }
+
+    .btn-feedback.active-down {
+      background: #fee2e2;
+      border-color: #dc2626;
+      color: #b91c1c;
+    }
+
+    /* OOV Banner */
+    .oov-banner {
+      background: #fffbeb;
+      border: 1px solid #fef3c7;
+      color: #92400e;
+      padding: 0.6rem 1rem;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    /* States */
+    .state-container {
+      text-align: center;
+      padding: 4rem 1rem;
+      color: var(--text-muted);
+    }
+
+    .state-icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      color: var(--accent-gold);
+    }
+
+    .spinner {
+      border: 3px solid rgba(184, 134, 11, 0.2);
+      border-top: 3px solid var(--accent-gold);
+      border-radius: 50%;
+      width: 44px;
+      height: 44px;
+      animation: spin 0.8s linear infinite;
+      margin: 0 auto 1rem;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1.5rem;
+      background: #0a1628;
+      color: #94a3b8;
+      font-size: 0.85rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      margin-top: auto;
+    }
+
+    footer span {
+      color: var(--accent-gold-light);
+    }
+
+    @media (max-width: 768px) {
+      .comparison-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Header -->
+  <header class="hero">
+    <div class="hero-container">
+      <h1>Banking Semantic Search</h1>
+      <p>Compare FastText subword intelligence against standard Word2Vec whole-word search.</p>
+
+      <div class="search-box">
+        <div class="input-group">
+          <input 
+            type="text" 
+            id="searchInput" 
+            class="search-input" 
+            placeholder="Try typing with typos e.g., 'acount balanc' or 'crdit card block'" 
+            autocomplete="off"
+          />
+          <button id="searchBtn" class="search-btn">🔍 Search</button>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-item">
+            <label for="categorySelect">Category Filter:</label>
+            <select id="categorySelect" class="filter-select">
+              <option value="">All Categories</option>
+            </select>
+          </div>
+
+          <div class="filter-item">
+            <label for="topKSelect">Results Count:</label>
+            <select id="topKSelect" class="filter-select">
+              <option value="5" selected>Top 5</option>
+              <option value="10">Top 10</option>
+            </select>
+          </div>
+
+          <!-- Comparison Mode Toggle -->
+          <label class="compare-toggle">
+            <input type="checkbox" id="compareCheckbox" checked />
+            <span class="toggle-slider"></span>
+            <span class="toggle-label">Comparison Mode</span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main class="main-container">
+    <div id="resultsContainer">
+      <div class="state-container">
+        <div class="state-icon">🏛️</div>
+        <h3>Welcome to the Banking Support Archive</h3>
+        <p>Enter a query above to test similarity search and subword FastText performance.</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>Powered by <span>FastText</span>, <span>Word2Vec</span> & <span>FastAPI</span> • Banking Semantic Search System</p>
+    <p id="footerStats" style="margin-top: 0.3rem; opacity: 0.7;"></p>
+  </footer>
+
+  <script>
+    const searchInput = document.getElementById('searchInput');
+    const searchBtn = document.getElementById('searchBtn');
+    const categorySelect = document.getElementById('categorySelect');
+    const topKSelect = document.getElementById('topKSelect');
+    const compareCheckbox = document.getElementById('compareCheckbox');
+    const resultsContainer = document.getElementById('resultsContainer');
+    const footerStats = document.getElementById('footerStats');
+
+    function getCategoryClass(cat) {
+      switch (cat) {
+        case 'Account Management': return 'tag-account';
+        case 'Loans': return 'tag-loans';
+        case 'Card Services': return 'tag-card';
+        case 'Payments & Transfers': return 'tag-payments';
+        case 'Fraud & Security': return 'tag-fraud';
+        default: return 'tag-default';
+      }
+    }
+
+    async function init() {
+      try {
+        const [catRes, healthRes] = await Promise.all([
+          fetch('/api/categories'),
+          fetch('/api/health')
+        ]);
+        if (catRes.ok) {
+          (await catRes.json()).forEach(cat => {
+            const opt = document.createElement('option');
+            opt.value = cat;
+            opt.textContent = cat;
+            categorySelect.appendChild(opt);
+          });
+        }
+        if (healthRes.ok) {
+          const h = await healthRes.json();
+          footerStats.textContent = `Status: Active | Models Loaded: ${h.models_loaded.join(', ')} | Corpus Size: ${h.reference_count} queries`;
+        }
+      } catch (err) {
+        console.error("Initialization error:", err);
+      }
+    }
+
+    async function submitFeedback(query, resultId, resultQuery, cat, feedbackType, btnElement) {
+      try {
+        const res = await fetch('/api/feedback', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            query: query,
+            result_id: resultId,
+            result_query: resultQuery,
+            category: cat,
+            feedback: feedbackType
+          })
+        });
+        if (res.ok) {
+          btnElement.parentElement.querySelectorAll('.btn-feedback').forEach(b => {
+            b.classList.remove('active-up', 'active-down');
+          });
+          btnElement.classList.add(feedbackType === 'helpful' ? 'active-up' : 'active-down');
+        }
+      } catch (e) {
+        console.error("Feedback submission error:", e);
+      }
+    }
+
+    async function doSearch() {
+      const query = searchInput.value.trim();
+      if (!query) return;
+
+      resultsContainer.innerHTML = `
+        <div class="state-container">
+          <div class="spinner"></div>
+          <p>Running semantic search across models...</p>
+        </div>
+      `;
+
+      const isCompare = compareCheckbox.checked;
+      const endpoint = isCompare ? '/api/compare' : '/api/search';
+      const payload = {
+        query: query,
+        top_k: parseInt(topKSelect.value, 10),
+        category: categorySelect.value || null,
+        min_score: 0.0
+      };
+
+      try {
+        const response = await fetch(endpoint, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const data = await response.json();
+
+        if (isCompare) {
+          renderComparisonResults(data);
+        } else {
+          renderSingleResults(data);
+        }
+      } catch (err) {
+        resultsContainer.innerHTML = `
+          <div class="state-container">
+            <div class="state-icon" style="color: #dc2626;">⚠️</div>
+            <h3>Search Error</h3>
+            <p>${err.message}</p>
+          </div>
+        `;
+      }
+    }
+
+    function renderCard(item, rawQuery) {
+      const pct = Math.round(item.similarity_score * 100);
+      const tagClass = getCategoryClass(item.category);
+      const card = document.createElement('div');
+      card.className = 'card';
+
+      card.innerHTML = `
+        <div class="stamp-badge">${pct}%<span>MATCH</span></div>
+        <div class="card-query">"${item.query}"</div>
+        <div class="card-footer">
+          <span class="category-tag ${tagClass}">${item.category}</span>
+          <div class="feedback-actions">
+            <button class="btn-feedback" title="Helpful match">👍</button>
+            <button class="btn-feedback" title="Flag inaccurate match">👎</button>
+          </div>
+        </div>
+      `;
+
+      const [upBtn, downBtn] = card.querySelectorAll('.btn-feedback');
+      upBtn.onclick = () => submitFeedback(rawQuery, item.id, item.query, item.category, 'helpful', upBtn);
+      downBtn.onclick = () => submitFeedback(rawQuery, item.id, item.query, item.category, 'unhelpful', downBtn);
+
+      return card;
+    }
+
+    function renderSingleResults(data) {
+      if (!data.results || data.results.length === 0) {
+        resultsContainer.innerHTML = `<div class="state-container"><h3>No Matches</h3></div>`;
+        return;
+      }
+      const grid = document.createElement('div');
+      grid.className = 'card-list';
+      data.results.forEach(item => grid.appendChild(renderCard(item, data.query)));
+      resultsContainer.innerHTML = '';
+      resultsContainer.appendChild(grid);
+    }
+
+    function renderComparisonResults(data) {
+      const grid = document.createElement('div');
+      grid.className = 'comparison-grid';
+
+      // Column 1: FastText
+      const ftCol = document.createElement('div');
+      ftCol.innerHTML = `
+        <div class="column-header">
+          <span class="column-title">FastText Engine</span>
+          <span class="column-tag fasttext">Subword N-Grams</span>
+        </div>
+        <div style="font-size: 0.85rem; color: #64748b; margin: 0.5rem 0 1rem;">
+          Predicted Intent: <strong>${data.fasttext.predicted_category}</strong> (${data.fasttext.processing_time_ms} ms)
+        </div>
+      `;
+      const ftList = document.createElement('div');
+      ftList.className = 'card-list';
+      data.fasttext.results.forEach(item => ftList.appendChild(renderCard(item, data.query)));
+      ftCol.appendChild(ftList);
+
+      // Column 2: Word2Vec
+      const w2vCol = document.createElement('div');
+      let oovHtml = '';
+      if (data.word2vec.oov_tokens && data.word2vec.oov_tokens.length > 0) {
+        oovHtml = `
+          <div class="oov-banner">
+            ⚠️ OOV Words Dropped: <strong>${data.word2vec.oov_tokens.join(', ')}</strong>
+          </div>
+        `;
+      }
+      w2vCol.innerHTML = `
+        <div class="column-header">
+          <span class="column-title">Word2Vec Engine</span>
+          <span class="column-tag word2vec">Whole-Word Vectors</span>
+        </div>
+        <div style="font-size: 0.85rem; color: #64748b; margin: 0.5rem 0 1rem;">
+          Predicted Intent: <strong>${data.word2vec.predicted_category}</strong> (${data.word2vec.processing_time_ms} ms)
+        </div>
+        ${oovHtml}
+      `;
+      const w2vList = document.createElement('div');
+      w2vList.className = 'card-list';
+      data.word2vec.results.forEach(item => w2vList.appendChild(renderCard(item, data.query)));
+      w2vCol.appendChild(w2vList);
+
+      grid.appendChild(ftCol);
+      grid.appendChild(w2vCol);
+
+      resultsContainer.innerHTML = '';
+      resultsContainer.appendChild(grid);
+    }
+
+    searchBtn.addEventListener('click', doSearch);
+    searchInput.addEventListener('keypress', e => { if (e.key === 'Enter') doSearch(); });
+    init();
+  </script>
+</body>
+</html>
